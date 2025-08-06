@@ -1,0 +1,90 @@
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Maven ===
+/target/
+*.class
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+release.properties
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === Spring Tools Suite (STS) ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Preserve build folders inside source (if needed)
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === VS Code ===
+.vscode/
+
+# === Logs ===
+*.log
+logs/
+*.out
+
+# === Environment Configs ===
+.env
+.env.*
+*.local.yml
+*.dev.yml
+*.prod.yml
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# === Swagger / OpenAPI (if generated)
+swagger-ui/
+.swagger-codegen/
+openapi/
+
+# === DevTools Restart Trigger File ===
+.spring-boot-devtools.properties
+
+# === JWT / Security Keys ===
+*.jks
+*.pem
+*.key
+keystore.*
+
+# === Coverage & Reports ===
+/coverage/
+.coverage/
+jacoco.exec
+target/site/jacoco/
+test-output/
+surefire-reports/
+
+# === IDE Workspace Cache ===
+.idea_modules/
+*.swp
