@@ -50,7 +50,7 @@ authcore/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/authcore.git
+git clone https://github.com/shekhar396/authcore.git
 cd authcore
 ```
 ## Set up MySQL
